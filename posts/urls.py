@@ -1,7 +1,8 @@
 from django.urls import path
 
-from .views import PostList, PostDetail, PostViewSet
+from .views import PostViewSet
 from rest_framework.routers import SimpleRouter
+# from .views import PostList, PostDetail
 
 # Using router with viewset
 router = SimpleRouter()
